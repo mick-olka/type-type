@@ -30,12 +30,17 @@ body, .quote-input {
     max-width: 90%;
 }
 
-.timer {
+.timer, .speed_counter {
     position: absolute;
     top: 2rem;
     font-size: 3rem;
     color: #339933;
     font-weight: bold;
+}
+
+.speed_counter {
+    top: 2rem;
+    right: 3rem;
 }
 
 .quote-display {
@@ -55,7 +60,7 @@ body, .quote-input {
     margin: auto;
     resize: none;
     padding: .5rem 1rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
     border-radius: .5rem;
     color: white;
 }
